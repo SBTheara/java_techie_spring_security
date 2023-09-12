@@ -14,7 +14,7 @@ import java.util.Map;
 
 @Component
 public class JwtService {
-    private final String SECRET = "3EC4B28D5EA7DDAAEAA55D2C788C7";
+    private final String SECRET = "0e4a72c2639ed3d48b611ebeb7259817dfb3381ca09b0ca6cada9fa3ef20b49c";
     public String generateToken(String username){
         Map<String,Object> claims = new HashMap<>();
         return createToken(claims,username);
