@@ -1210,3 +1210,402 @@ io.jsonwebtoken.security.WeakKeyException: The specified key byte array is 168 b
 2023-09-12T23:09:02.863+07:00  INFO 10412 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2023-09-12T23:09:02.866+07:00  INFO 10412 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
 2023-09-12T23:09:02.888+07:00  INFO 10412 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-09-13T08:04:45.971+07:00  INFO 9572 --- [main] .s.J.JavaTechieSpringSecurityApplication : Starting JavaTechieSpringSecurityApplication using Java 17.0.4.1 with PID 9572 (D:\lessons\JavaTechie_SpringSecurity\target\classes started by Theara in D:\lessons\JavaTechie_SpringSecurity)
+2023-09-13T08:04:45.976+07:00  INFO 9572 --- [main] .s.J.JavaTechieSpringSecurityApplication : No active profile set, falling back to 1 default profile: "default"
+2023-09-13T08:04:47.814+07:00  INFO 9572 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-13T08:04:47.942+07:00  INFO 9572 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 107 ms. Found 1 JPA repository interfaces.
+2023-09-13T08:04:49.547+07:00  INFO 9572 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
+2023-09-13T08:04:49.602+07:00  INFO 9572 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-13T08:04:49.603+07:00  INFO 9572 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.12]
+2023-09-13T08:04:49.862+07:00  INFO 9572 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-13T08:04:49.863+07:00  INFO 9572 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3641 ms
+2023-09-13T08:04:51.067+07:00  INFO 9572 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-09-13T08:04:51.099+07:00  INFO 9572 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-09-13T08:04:51.437+07:00  INFO 9572 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1ad1c363
+2023-09-13T08:04:51.440+07:00  INFO 9572 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-09-13T08:04:53.448+07:00  INFO 9572 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-13T08:04:54.355+07:00  WARN 9572 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-09-13T08:04:54.945+07:00  INFO 9572 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@48cbe1c9, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@67e628b, org.springframework.security.web.context.SecurityContextHolderFilter@43b3b1b0, org.springframework.security.web.header.HeaderWriterFilter@3c2fa57a, org.springframework.security.web.authentication.logout.LogoutFilter@6a95c2f6, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@5b72b13a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7d4135c9, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4724b2c1, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@578c99ac, org.springframework.security.web.access.ExceptionTranslationFilter@796e2187, org.springframework.security.web.access.intercept.AuthorizationFilter@4ed5492c]
+2023-09-13T08:04:55.369+07:00  INFO 9572 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
+2023-09-13T08:04:55.398+07:00  INFO 9572 --- [main] .s.J.JavaTechieSpringSecurityApplication : Started JavaTechieSpringSecurityApplication in 10.622 seconds (process running for 12.473)
+2023-09-13T08:38:27.427+07:00  INFO 9572 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-13T08:38:27.431+07:00  INFO 9572 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-09-13T08:38:27.440+07:00  INFO 9572 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-09-13T08:38:34.595+07:00  INFO 13956 --- [main] .s.J.JavaTechieSpringSecurityApplication : Starting JavaTechieSpringSecurityApplication using Java 17.0.4.1 with PID 13956 (D:\lessons\JavaTechie_SpringSecurity\target\classes started by Theara in D:\lessons\JavaTechie_SpringSecurity)
+2023-09-13T08:38:34.600+07:00  INFO 13956 --- [main] .s.J.JavaTechieSpringSecurityApplication : No active profile set, falling back to 1 default profile: "default"
+2023-09-13T08:38:36.283+07:00  INFO 13956 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-13T08:38:36.411+07:00  INFO 13956 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 108 ms. Found 1 JPA repository interfaces.
+2023-09-13T08:38:38.090+07:00  INFO 13956 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
+2023-09-13T08:38:38.113+07:00  INFO 13956 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-13T08:38:38.113+07:00  INFO 13956 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.12]
+2023-09-13T08:38:38.369+07:00  INFO 13956 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-13T08:38:38.370+07:00  INFO 13956 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3618 ms
+2023-09-13T08:38:39.448+07:00  INFO 13956 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-09-13T08:38:39.496+07:00  INFO 13956 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-09-13T08:38:40.119+07:00  INFO 13956 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@16d41725
+2023-09-13T08:38:40.122+07:00  INFO 13956 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-09-13T08:38:42.127+07:00  INFO 13956 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-13T08:38:42.961+07:00  WARN 13956 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-09-13T08:38:43.532+07:00  INFO 13956 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6ca30886, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7bf16972, org.springframework.security.web.context.SecurityContextHolderFilter@59db8216, org.springframework.security.web.header.HeaderWriterFilter@43b3b1b0, org.springframework.security.web.authentication.logout.LogoutFilter@3c04ddda, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@48cbe1c9, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@33bf2602, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@537a8915, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@eee26bd, org.springframework.security.web.access.ExceptionTranslationFilter@4027edeb, org.springframework.security.web.access.intercept.AuthorizationFilter@591febcb]
+2023-09-13T08:38:44.011+07:00  INFO 13956 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
+2023-09-13T08:38:44.030+07:00  INFO 13956 --- [main] .s.J.JavaTechieSpringSecurityApplication : Started JavaTechieSpringSecurityApplication in 10.49 seconds (process running for 11.69)
+2023-09-13T09:05:41.485+07:00  INFO 13956 --- [http-nio-8888-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-13T09:05:41.485+07:00  INFO 13956 --- [http-nio-8888-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-09-13T09:05:41.489+07:00  INFO 13956 --- [http-nio-8888-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2023-09-13T09:10:14.392+07:00  INFO 13956 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-13T09:10:14.397+07:00  INFO 13956 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-09-13T09:10:14.405+07:00  INFO 13956 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-09-13T09:10:21.066+07:00  INFO 12208 --- [main] .s.J.JavaTechieSpringSecurityApplication : Starting JavaTechieSpringSecurityApplication using Java 17.0.4.1 with PID 12208 (D:\lessons\JavaTechie_SpringSecurity\target\classes started by Theara in D:\lessons\JavaTechie_SpringSecurity)
+2023-09-13T09:10:21.070+07:00  INFO 12208 --- [main] .s.J.JavaTechieSpringSecurityApplication : No active profile set, falling back to 1 default profile: "default"
+2023-09-13T09:10:22.807+07:00  INFO 12208 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-13T09:10:22.947+07:00  INFO 12208 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 121 ms. Found 1 JPA repository interfaces.
+2023-09-13T09:10:24.409+07:00  INFO 12208 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
+2023-09-13T09:10:24.430+07:00  INFO 12208 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-13T09:10:24.441+07:00  INFO 12208 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.12]
+2023-09-13T09:10:24.691+07:00  INFO 12208 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-13T09:10:24.692+07:00  INFO 12208 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3427 ms
+2023-09-13T09:10:24.725+07:00 ERROR 12208 --- [main] o.s.b.web.embedded.tomcat.TomcatStarter  : Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'jwtFilterAuthentication' defined in file [D:\lessons\JavaTechie_SpringSecurity\target\classes\com\intern\theara\springsecurity\JavaTechie_SpringSecurity\config\JwtFilterAuthentication.class]: Unsatisfied dependency expressed through constructor parameter 1: No qualifying bean of type 'com.intern.theara.springsecurity.JavaTechie_SpringSecurity.model.SecurityUser' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2023-09-13T09:10:24.789+07:00  INFO 12208 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-09-13T09:10:24.810+07:00  WARN 12208 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server
+2023-09-13T09:10:24.831+07:00  INFO 12208 --- [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-09-13T09:10:24.879+07:00 ERROR 12208 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 1 of constructor in com.intern.theara.springsecurity.JavaTechie_SpringSecurity.config.JwtFilterAuthentication required a bean of type 'com.intern.theara.springsecurity.JavaTechie_SpringSecurity.model.SecurityUser' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.intern.theara.springsecurity.JavaTechie_SpringSecurity.model.SecurityUser' in your configuration.
+
+2023-09-13T09:11:56.630+07:00  INFO 17288 --- [main] .s.J.JavaTechieSpringSecurityApplication : Starting JavaTechieSpringSecurityApplication using Java 17.0.4.1 with PID 17288 (D:\lessons\JavaTechie_SpringSecurity\target\classes started by Theara in D:\lessons\JavaTechie_SpringSecurity)
+2023-09-13T09:11:56.635+07:00  INFO 17288 --- [main] .s.J.JavaTechieSpringSecurityApplication : No active profile set, falling back to 1 default profile: "default"
+2023-09-13T09:11:58.109+07:00  INFO 17288 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-13T09:11:58.246+07:00  INFO 17288 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 118 ms. Found 1 JPA repository interfaces.
+2023-09-13T09:11:59.691+07:00  INFO 17288 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
+2023-09-13T09:11:59.708+07:00  INFO 17288 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-13T09:11:59.709+07:00  INFO 17288 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.12]
+2023-09-13T09:11:59.964+07:00  INFO 17288 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-13T09:11:59.965+07:00  INFO 17288 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3179 ms
+2023-09-13T09:11:59.999+07:00 ERROR 17288 --- [main] o.s.b.web.embedded.tomcat.TomcatStarter  : Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'jwtFilterAuthentication' defined in file [D:\lessons\JavaTechie_SpringSecurity\target\classes\com\intern\theara\springsecurity\JavaTechie_SpringSecurity\config\JwtFilterAuthentication.class]: Unsatisfied dependency expressed through constructor parameter 1: No qualifying bean of type 'com.intern.theara.springsecurity.JavaTechie_SpringSecurity.model.SecurityUser' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2023-09-13T09:12:00.062+07:00  INFO 17288 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-09-13T09:12:00.081+07:00  WARN 17288 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server
+2023-09-13T09:12:00.100+07:00  INFO 17288 --- [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-09-13T09:12:00.154+07:00 ERROR 17288 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 1 of constructor in com.intern.theara.springsecurity.JavaTechie_SpringSecurity.config.JwtFilterAuthentication required a bean of type 'com.intern.theara.springsecurity.JavaTechie_SpringSecurity.model.SecurityUser' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.intern.theara.springsecurity.JavaTechie_SpringSecurity.model.SecurityUser' in your configuration.
+
+2023-09-13T09:13:23.085+07:00  INFO 13060 --- [main] .s.J.JavaTechieSpringSecurityApplication : Starting JavaTechieSpringSecurityApplication using Java 17.0.4.1 with PID 13060 (D:\lessons\JavaTechie_SpringSecurity\target\classes started by Theara in D:\lessons\JavaTechie_SpringSecurity)
+2023-09-13T09:13:23.089+07:00  INFO 13060 --- [main] .s.J.JavaTechieSpringSecurityApplication : No active profile set, falling back to 1 default profile: "default"
+2023-09-13T09:13:24.564+07:00  INFO 13060 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-13T09:13:24.686+07:00  INFO 13060 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 102 ms. Found 1 JPA repository interfaces.
+2023-09-13T09:13:26.111+07:00  INFO 13060 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
+2023-09-13T09:13:26.131+07:00  INFO 13060 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-13T09:13:26.132+07:00  INFO 13060 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.12]
+2023-09-13T09:13:26.392+07:00  INFO 13060 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-13T09:13:26.393+07:00  INFO 13060 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3175 ms
+2023-09-13T09:13:26.425+07:00 ERROR 13060 --- [main] o.s.b.web.embedded.tomcat.TomcatStarter  : Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'jwtFilterAuthentication' defined in file [D:\lessons\JavaTechie_SpringSecurity\target\classes\com\intern\theara\springsecurity\JavaTechie_SpringSecurity\config\JwtFilterAuthentication.class]: Unsatisfied dependency expressed through constructor parameter 1: No qualifying bean of type 'com.intern.theara.springsecurity.JavaTechie_SpringSecurity.model.SecurityUser' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2023-09-13T09:13:26.480+07:00  INFO 13060 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-09-13T09:13:26.498+07:00  WARN 13060 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server
+2023-09-13T09:13:26.520+07:00  INFO 13060 --- [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-09-13T09:13:26.564+07:00 ERROR 13060 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 1 of constructor in com.intern.theara.springsecurity.JavaTechie_SpringSecurity.config.JwtFilterAuthentication required a bean of type 'com.intern.theara.springsecurity.JavaTechie_SpringSecurity.model.SecurityUser' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.intern.theara.springsecurity.JavaTechie_SpringSecurity.model.SecurityUser' in your configuration.
+
+2023-09-13T09:16:02.105+07:00  INFO 6036 --- [main] .s.J.JavaTechieSpringSecurityApplication : Starting JavaTechieSpringSecurityApplication using Java 17.0.4.1 with PID 6036 (D:\lessons\JavaTechie_SpringSecurity\target\classes started by Theara in D:\lessons\JavaTechie_SpringSecurity)
+2023-09-13T09:16:02.109+07:00  INFO 6036 --- [main] .s.J.JavaTechieSpringSecurityApplication : No active profile set, falling back to 1 default profile: "default"
+2023-09-13T09:16:03.590+07:00  INFO 6036 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-13T09:16:03.720+07:00  INFO 6036 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 110 ms. Found 1 JPA repository interfaces.
+2023-09-13T09:16:05.161+07:00  INFO 6036 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
+2023-09-13T09:16:05.181+07:00  INFO 6036 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-13T09:16:05.182+07:00  INFO 6036 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.12]
+2023-09-13T09:16:05.409+07:00  INFO 6036 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-13T09:16:05.410+07:00  INFO 6036 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3172 ms
+2023-09-13T09:16:05.449+07:00 ERROR 6036 --- [main] o.s.b.web.embedded.tomcat.TomcatStarter  : Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'jwtFilterAuthentication' defined in file [D:\lessons\JavaTechie_SpringSecurity\target\classes\com\intern\theara\springsecurity\JavaTechie_SpringSecurity\config\JwtFilterAuthentication.class]: Unsatisfied dependency expressed through constructor parameter 1: Error creating bean with name 'securityConfig': Unsatisfied dependency expressed through field 'jwtAuthFilter': Error creating bean with name 'jwtFilterAuthentication': Requested bean is currently in creation: Is there an unresolvable circular reference?
+2023-09-13T09:16:05.517+07:00  INFO 6036 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-09-13T09:16:05.537+07:00  WARN 6036 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server
+2023-09-13T09:16:05.560+07:00  INFO 6036 --- [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-09-13T09:16:05.605+07:00 ERROR 6036 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The dependencies of some of the beans in the application context form a cycle:
+
+┌─────┐
+|  jwtFilterAuthentication defined in file [D:\lessons\JavaTechie_SpringSecurity\target\classes\com\intern\theara\springsecurity\JavaTechie_SpringSecurity\config\JwtFilterAuthentication.class]
+↑     ↓
+|  securityConfig (field private com.intern.theara.springsecurity.JavaTechie_SpringSecurity.config.JwtFilterAuthentication com.intern.theara.springsecurity.JavaTechie_SpringSecurity.config.SecurityConfig.jwtAuthFilter)
+└─────┘
+
+
+Action:
+
+Relying upon circular references is discouraged and they are prohibited by default. Update your application to remove the dependency cycle between beans. As a last resort, it may be possible to break the cycle automatically by setting spring.main.allow-circular-references to true.
+
+2023-09-13T09:16:52.118+07:00  INFO 6832 --- [main] .s.J.JavaTechieSpringSecurityApplication : Starting JavaTechieSpringSecurityApplication using Java 17.0.4.1 with PID 6832 (D:\lessons\JavaTechie_SpringSecurity\target\classes started by Theara in D:\lessons\JavaTechie_SpringSecurity)
+2023-09-13T09:16:52.123+07:00  INFO 6832 --- [main] .s.J.JavaTechieSpringSecurityApplication : No active profile set, falling back to 1 default profile: "default"
+2023-09-13T09:16:53.621+07:00  INFO 6832 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-13T09:16:53.763+07:00  INFO 6832 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 124 ms. Found 1 JPA repository interfaces.
+2023-09-13T09:16:55.208+07:00  INFO 6832 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
+2023-09-13T09:16:55.234+07:00  INFO 6832 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-13T09:16:55.236+07:00  INFO 6832 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.12]
+2023-09-13T09:16:55.522+07:00  INFO 6832 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-13T09:16:55.523+07:00  INFO 6832 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3247 ms
+2023-09-13T09:16:55.556+07:00 ERROR 6832 --- [main] o.s.b.web.embedded.tomcat.TomcatStarter  : Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'jwtFilterAuthentication' defined in file [D:\lessons\JavaTechie_SpringSecurity\target\classes\com\intern\theara\springsecurity\JavaTechie_SpringSecurity\config\JwtFilterAuthentication.class]: Unsatisfied dependency expressed through constructor parameter 1: No qualifying bean of type 'com.intern.theara.springsecurity.JavaTechie_SpringSecurity.model.SecurityUser' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2023-09-13T09:16:55.619+07:00  INFO 6832 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-09-13T09:16:55.646+07:00  WARN 6832 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server
+2023-09-13T09:16:55.689+07:00  INFO 6832 --- [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-09-13T09:16:55.774+07:00 ERROR 6832 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 1 of constructor in com.intern.theara.springsecurity.JavaTechie_SpringSecurity.config.JwtFilterAuthentication required a bean of type 'com.intern.theara.springsecurity.JavaTechie_SpringSecurity.model.SecurityUser' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.intern.theara.springsecurity.JavaTechie_SpringSecurity.model.SecurityUser' in your configuration.
+
+2023-09-13T09:18:57.821+07:00  INFO 16616 --- [main] .s.J.JavaTechieSpringSecurityApplication : Starting JavaTechieSpringSecurityApplication using Java 17.0.4.1 with PID 16616 (D:\lessons\JavaTechie_SpringSecurity\target\classes started by Theara in D:\lessons\JavaTechie_SpringSecurity)
+2023-09-13T09:18:57.825+07:00  INFO 16616 --- [main] .s.J.JavaTechieSpringSecurityApplication : No active profile set, falling back to 1 default profile: "default"
+2023-09-13T09:18:59.367+07:00  INFO 16616 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-13T09:18:59.500+07:00  INFO 16616 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 114 ms. Found 1 JPA repository interfaces.
+2023-09-13T09:19:00.974+07:00  INFO 16616 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
+2023-09-13T09:19:00.994+07:00  INFO 16616 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-13T09:19:00.995+07:00  INFO 16616 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.12]
+2023-09-13T09:19:01.252+07:00  INFO 16616 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-13T09:19:01.253+07:00  INFO 16616 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3279 ms
+2023-09-13T09:19:01.288+07:00 ERROR 16616 --- [main] o.s.b.web.embedded.tomcat.TomcatStarter  : Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'jwtFilterAuthentication' defined in file [D:\lessons\JavaTechie_SpringSecurity\target\classes\com\intern\theara\springsecurity\JavaTechie_SpringSecurity\config\JwtFilterAuthentication.class]: Unsatisfied dependency expressed through constructor parameter 1: No qualifying bean of type 'com.intern.theara.springsecurity.JavaTechie_SpringSecurity.model.SecurityUser' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2023-09-13T09:19:01.346+07:00  INFO 16616 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-09-13T09:19:01.369+07:00  WARN 16616 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server
+2023-09-13T09:19:01.389+07:00  INFO 16616 --- [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-09-13T09:19:01.436+07:00 ERROR 16616 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 1 of constructor in com.intern.theara.springsecurity.JavaTechie_SpringSecurity.config.JwtFilterAuthentication required a bean of type 'com.intern.theara.springsecurity.JavaTechie_SpringSecurity.model.SecurityUser' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.intern.theara.springsecurity.JavaTechie_SpringSecurity.model.SecurityUser' in your configuration.
+
+2023-09-13T09:20:04.523+07:00  INFO 16168 --- [main] .s.J.JavaTechieSpringSecurityApplication : Starting JavaTechieSpringSecurityApplication using Java 17.0.4.1 with PID 16168 (D:\lessons\JavaTechie_SpringSecurity\target\classes started by Theara in D:\lessons\JavaTechie_SpringSecurity)
+2023-09-13T09:20:04.527+07:00  INFO 16168 --- [main] .s.J.JavaTechieSpringSecurityApplication : No active profile set, falling back to 1 default profile: "default"
+2023-09-13T09:20:05.999+07:00  INFO 16168 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-13T09:20:06.139+07:00  INFO 16168 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 121 ms. Found 1 JPA repository interfaces.
+2023-09-13T09:20:07.643+07:00  INFO 16168 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
+2023-09-13T09:20:07.664+07:00  INFO 16168 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-13T09:20:07.665+07:00  INFO 16168 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.12]
+2023-09-13T09:20:07.914+07:00  INFO 16168 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-13T09:20:07.915+07:00  INFO 16168 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3254 ms
+2023-09-13T09:20:07.959+07:00 ERROR 16168 --- [main] o.s.b.web.embedded.tomcat.TomcatStarter  : Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'jwtFilterAuthentication': Unsatisfied dependency expressed through field 'userDetails': No qualifying bean of type 'com.intern.theara.springsecurity.JavaTechie_SpringSecurity.model.SecurityUser' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2023-09-13T09:20:08.018+07:00  INFO 16168 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-09-13T09:20:08.037+07:00  WARN 16168 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server
+2023-09-13T09:20:08.058+07:00  INFO 16168 --- [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-09-13T09:20:08.108+07:00 ERROR 16168 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field userDetails in com.intern.theara.springsecurity.JavaTechie_SpringSecurity.config.JwtFilterAuthentication required a bean of type 'com.intern.theara.springsecurity.JavaTechie_SpringSecurity.model.SecurityUser' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.intern.theara.springsecurity.JavaTechie_SpringSecurity.model.SecurityUser' in your configuration.
+
+2023-09-13T09:22:05.794+07:00  INFO 7264 --- [main] .s.J.JavaTechieSpringSecurityApplication : Starting JavaTechieSpringSecurityApplication using Java 17.0.4.1 with PID 7264 (D:\lessons\JavaTechie_SpringSecurity\target\classes started by Theara in D:\lessons\JavaTechie_SpringSecurity)
+2023-09-13T09:22:05.798+07:00  INFO 7264 --- [main] .s.J.JavaTechieSpringSecurityApplication : No active profile set, falling back to 1 default profile: "default"
+2023-09-13T09:22:07.284+07:00  INFO 7264 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-13T09:22:07.420+07:00  INFO 7264 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 116 ms. Found 1 JPA repository interfaces.
+2023-09-13T09:22:08.814+07:00  INFO 7264 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
+2023-09-13T09:22:08.834+07:00  INFO 7264 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-13T09:22:08.835+07:00  INFO 7264 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.12]
+2023-09-13T09:22:09.071+07:00  INFO 7264 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-13T09:22:09.072+07:00  INFO 7264 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3115 ms
+2023-09-13T09:22:09.109+07:00 ERROR 7264 --- [main] o.s.b.web.embedded.tomcat.TomcatStarter  : Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'jwtFilterAuthentication': Unsatisfied dependency expressed through field 'userDetails': Error creating bean with name 'securityConfig': Unsatisfied dependency expressed through field 'jwtAuthFilter': Error creating bean with name 'jwtFilterAuthentication': Requested bean is currently in creation: Is there an unresolvable circular reference?
+2023-09-13T09:22:09.169+07:00  INFO 7264 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-09-13T09:22:09.190+07:00  WARN 7264 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server
+2023-09-13T09:22:09.211+07:00  INFO 7264 --- [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-09-13T09:22:09.251+07:00 ERROR 7264 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The dependencies of some of the beans in the application context form a cycle:
+
+┌─────┐
+|  jwtFilterAuthentication (field private org.springframework.security.core.userdetails.UserDetails com.intern.theara.springsecurity.JavaTechie_SpringSecurity.config.JwtFilterAuthentication.userDetails)
+↑     ↓
+|  securityConfig (field private com.intern.theara.springsecurity.JavaTechie_SpringSecurity.config.JwtFilterAuthentication com.intern.theara.springsecurity.JavaTechie_SpringSecurity.config.SecurityConfig.jwtAuthFilter)
+└─────┘
+
+
+Action:
+
+Relying upon circular references is discouraged and they are prohibited by default. Update your application to remove the dependency cycle between beans. As a last resort, it may be possible to break the cycle automatically by setting spring.main.allow-circular-references to true.
+
+2023-09-13T09:22:43.728+07:00  INFO 12156 --- [main] .s.J.JavaTechieSpringSecurityApplication : Starting JavaTechieSpringSecurityApplication using Java 17.0.4.1 with PID 12156 (D:\lessons\JavaTechie_SpringSecurity\target\classes started by Theara in D:\lessons\JavaTechie_SpringSecurity)
+2023-09-13T09:22:43.732+07:00  INFO 12156 --- [main] .s.J.JavaTechieSpringSecurityApplication : No active profile set, falling back to 1 default profile: "default"
+2023-09-13T09:22:45.209+07:00  INFO 12156 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-13T09:22:45.342+07:00  INFO 12156 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 114 ms. Found 1 JPA repository interfaces.
+2023-09-13T09:22:46.754+07:00  INFO 12156 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
+2023-09-13T09:22:46.774+07:00  INFO 12156 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-13T09:22:46.775+07:00  INFO 12156 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.12]
+2023-09-13T09:22:46.990+07:00  INFO 12156 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-13T09:22:46.991+07:00  INFO 12156 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3125 ms
+2023-09-13T09:22:47.027+07:00 ERROR 12156 --- [main] o.s.b.web.embedded.tomcat.TomcatStarter  : Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'jwtFilterAuthentication': Unsatisfied dependency expressed through field 'userDetails': No qualifying bean of type 'org.springframework.security.core.userdetails.UserDetails' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2023-09-13T09:22:47.101+07:00  INFO 12156 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-09-13T09:22:47.134+07:00  WARN 12156 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server
+2023-09-13T09:22:47.154+07:00  INFO 12156 --- [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-09-13T09:22:47.227+07:00 ERROR 12156 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field userDetails in com.intern.theara.springsecurity.JavaTechie_SpringSecurity.config.JwtFilterAuthentication required a bean of type 'org.springframework.security.core.userdetails.UserDetails' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.security.core.userdetails.UserDetails' in your configuration.
+
+2023-09-13T09:23:56.355+07:00  INFO 10184 --- [main] .s.J.JavaTechieSpringSecurityApplication : Starting JavaTechieSpringSecurityApplication using Java 17.0.4.1 with PID 10184 (D:\lessons\JavaTechie_SpringSecurity\target\classes started by Theara in D:\lessons\JavaTechie_SpringSecurity)
+2023-09-13T09:23:56.360+07:00  INFO 10184 --- [main] .s.J.JavaTechieSpringSecurityApplication : No active profile set, falling back to 1 default profile: "default"
+2023-09-13T09:23:58.176+07:00  INFO 10184 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-13T09:23:58.354+07:00  INFO 10184 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 158 ms. Found 1 JPA repository interfaces.
+2023-09-13T09:24:00.777+07:00  INFO 10184 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
+2023-09-13T09:24:00.798+07:00  INFO 10184 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-13T09:24:00.798+07:00  INFO 10184 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.12]
+2023-09-13T09:24:01.020+07:00  INFO 10184 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-13T09:24:01.023+07:00  INFO 10184 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4479 ms
+2023-09-13T09:24:01.077+07:00 ERROR 10184 --- [main] o.s.b.web.embedded.tomcat.TomcatStarter  : Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'jwtFilterAuthentication': Unsatisfied dependency expressed through field 'userDetails': No qualifying bean of type 'org.springframework.security.core.userdetails.UserDetails' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2023-09-13T09:24:01.217+07:00  INFO 10184 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-09-13T09:24:01.257+07:00  WARN 10184 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server
+2023-09-13T09:24:01.325+07:00  INFO 10184 --- [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-09-13T09:24:01.417+07:00 ERROR 10184 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field userDetails in com.intern.theara.springsecurity.JavaTechie_SpringSecurity.config.JwtFilterAuthentication required a bean of type 'org.springframework.security.core.userdetails.UserDetails' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.security.core.userdetails.UserDetails' in your configuration.
+
+2023-09-13T09:27:18.996+07:00  INFO 3552 --- [main] .s.J.JavaTechieSpringSecurityApplication : Starting JavaTechieSpringSecurityApplication using Java 17.0.4.1 with PID 3552 (D:\lessons\JavaTechie_SpringSecurity\target\classes started by Theara in D:\lessons\JavaTechie_SpringSecurity)
+2023-09-13T09:27:19.001+07:00  INFO 3552 --- [main] .s.J.JavaTechieSpringSecurityApplication : No active profile set, falling back to 1 default profile: "default"
+2023-09-13T09:27:21.568+07:00  INFO 3552 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-13T09:27:21.753+07:00  INFO 3552 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 162 ms. Found 1 JPA repository interfaces.
+2023-09-13T09:27:24.069+07:00  INFO 3552 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
+2023-09-13T09:27:24.095+07:00  INFO 3552 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-13T09:27:24.096+07:00  INFO 3552 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.12]
+2023-09-13T09:27:24.468+07:00  INFO 3552 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-13T09:27:24.469+07:00  INFO 3552 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5313 ms
+2023-09-13T09:27:24.536+07:00 ERROR 3552 --- [main] o.s.b.web.embedded.tomcat.TomcatStarter  : Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'jwtFilterAuthentication': Unsatisfied dependency expressed through field 'userDetails': No qualifying bean of type 'com.intern.theara.springsecurity.JavaTechie_SpringSecurity.model.SecurityUser' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2023-09-13T09:27:24.679+07:00  INFO 3552 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-09-13T09:27:24.702+07:00  WARN 3552 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server
+2023-09-13T09:27:24.722+07:00  INFO 3552 --- [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-09-13T09:27:24.824+07:00 ERROR 3552 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field userDetails in com.intern.theara.springsecurity.JavaTechie_SpringSecurity.config.JwtFilterAuthentication required a bean of type 'com.intern.theara.springsecurity.JavaTechie_SpringSecurity.model.SecurityUser' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.intern.theara.springsecurity.JavaTechie_SpringSecurity.model.SecurityUser' in your configuration.
+
